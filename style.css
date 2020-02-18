@@ -1,77 +1,84 @@
 @charset "utf-8";
 
 /* CSS Document */
-body {
-background: white;
-}
-.logo {
-
-}
-.background {
-  background-size: contain;
-}
-h1 {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 35pt;
-  margin-left: 35px;
-  padding: 0px;
-	color: black;
-}
-
 nav {
-font-family: 'Oswald', sans-serif;
-  font-size: 15pt;
-	color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25pt;
+  color: white;
+  text-decoration: none;
   list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.navbar {
+  background-color: #737577;
+  width: 20%;
+  float: left;
+  height: 800px;
+  display: inline-block;
+  /* padding-bottom: 40px; */
+  position: fixed;
+  /* z-index: 10; */
+}
+
+SVG {
+  height: 200px;
+  width: auto;
+  padding-left: 25px;
+  padding-top: 15px;
+  align-items: center;
+  margin-bottom: none;
+}
+
+.name {
+  color: black;
+  margin-left: 300px;
+padding-top: 25px;
+  font-size: 50px;
+  border-bottom: 1.5px;
   border-bottom-style: solid;
-  border-width: 5px;
-  border-color: gold;
-  margin-right: 100px;
-  margin-left: 60px;
+  border-bottom-color: black;
+  margin-right: 50px;
+  font-family: Courier;
 }
-
-li {
-  display: inline;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-bottom: 7px;
-}
-
 .bio {
-  margin-left: 100px;
-  margin-right: 250px;
-font-family: 'Maven Pro', sans-serif;
-  font-size: 12pt;
-	color: black;
+  margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 50px;
+  font-family: Courier;
+    font-size: 12pt;
+  	color: black;
 }
-
-/*footer {
-	position:absolute;
-	bottom: 0;
-	float: none;
-	padding-top: 5px;
-	padding-left:none;
-	padding-right: 5px;
-	margin: 2px;
-	align-content:center;
+#mwc {
+  color: black;
 }
-
-
-.copyright {
-	float: right;
-	margin: 0px;
-	align-content: center;
+#mwc:hover {
+  color:   #737577;
 }
-*/
 .card {
-  position: absolute;
+  float: right;
   perspective: 600px;
   transition: 0.5s;
 }
 
 .card .front {
   position: absolute;
-  margin-left: 1050px;
+  margin-right: 50%;
+  margin-top: 30px;
   top: 0;
   left: 0;
   width: 200px;
@@ -91,13 +98,14 @@ font-family: 'Maven Pro', sans-serif;
 }
 
 .card .back {
-  position: absolute;
-  margin-left: 1050px;
+  float: absolute;
+  margin-right: 50%;
+  margin-top: 30px;
   top: 0;
   left: 0;
   width: 200px;
   height: 200px;
-  background: #000;
+  background: #737577;
   backface-visibility: hidden;
   transform: rotateX(180deg);
   transition: 0.5s;
@@ -106,10 +114,6 @@ font-family: 'Maven Pro', sans-serif;
 .card .back .details {
   color: white;
   text-align: center;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  font-family: Courier;
   padding-top: 50px;
 }
-
-/* a:visited {
-	color: white;
-} */
