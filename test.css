@@ -1,0 +1,116 @@
+nav {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25pt;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.navbar {
+  background-color: #737577;
+  width: 20%;
+  float: left;
+  height: 800px;
+  display: inline-block;
+  /* padding-bottom: 40px; */
+  position: fixed;
+  /* z-index: 10; */
+}
+
+SVG {
+  height: 200px;
+  width: auto;
+  padding-left: 25px;
+  padding-top: 15px;
+  align-items: center;
+  margin-bottom: none;
+}
+
+.name {
+  color: black;
+  margin-left: 300px;
+padding-top: 25px;
+  font-size: 50px;
+  border-bottom: 1.5px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  margin-right: 50px;
+  font-family: Courier;
+}
+.bio {
+  margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 50px;
+  font-family: Courier;
+    font-size: 12pt;
+  	color: black;
+}
+#mwc {
+  color: black;
+}
+#mwc:hover {
+  color:   #737577;
+}
+.card {
+  float: right;
+  perspective: 600px;
+  transition: 0.5s;
+}
+
+.card .front {
+  position: absolute;
+  margin-right: 50%;
+  margin-top: 30px;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: #000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+}
+
+.card:hover .front {
+  transform: rotateX(-180deg);
+}
+
+.card:hover .back {
+  transform: rotateX(0deg);
+}
+
+.card .back {
+  float: absolute;
+  margin-right: 50%;
+  margin-top: 30px;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: #737577;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+}
+
+.card .back .details {
+  color: white;
+  text-align: center;
+  font-family: Courier;
+  padding-top: 50px;
+}
