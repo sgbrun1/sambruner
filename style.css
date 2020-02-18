@@ -87,6 +87,7 @@ padding-top: 25px;
   backface-visibility: hidden;
   transform: rotateX(0deg);
   transition: 0.5s;
+  padding-right: 30px;
 }
 
 .card:hover .front {
@@ -109,6 +110,7 @@ padding-top: 25px;
   backface-visibility: hidden;
   transform: rotateX(180deg);
   transition: 0.5s;
+    padding-right: 30px;
 }
 
 .card .back .details {
