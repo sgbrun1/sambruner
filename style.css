@@ -47,7 +47,7 @@ SVG {
 .name {
   color: black;
   margin-left: 300px;
-padding-top: 25px;
+  padding-top: 25px;
   font-size: 50px;
   border-bottom: 1.5px;
   border-bottom-style: solid;
@@ -55,20 +55,25 @@ padding-top: 25px;
   margin-right: 50px;
   font-family: Courier;
 }
+
 .bio {
   margin-top: 30px;
-    margin-left: 300px;
-    margin-right: 50px;
+  margin-left: 300px;
+  margin-right: 50px;
   font-family: Courier;
-    font-size: 12pt;
-  	color: black;
+  font-size: 12pt;
+  color: black;
+  padding-right: 15px;
 }
+
 #mwc {
   color: black;
 }
+
 #mwc:hover {
-  color:   #737577;
+  color: #737577;
 }
+
 .card {
   float: right;
   perspective: 600px;
@@ -77,17 +82,16 @@ padding-top: 25px;
 
 .card .front {
   position: absolute;
-  margin-right: 50%;
+  margin-right: 50px;
   margin-top: 30px;
   top: 0;
   left: 0;
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 300px;
   background: #000;
   backface-visibility: hidden;
   transform: rotateX(0deg);
   transition: 0.5s;
-  padding-right: 30px;
 }
 
 .card:hover .front {
@@ -100,17 +104,16 @@ padding-top: 25px;
 
 .card .back {
   float: absolute;
-  margin-right: 50%;
+  margin-right: 50px;
   margin-top: 30px;
   top: 0;
   left: 0;
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 300px;
   background: #737577;
   backface-visibility: hidden;
   transform: rotateX(180deg);
   transition: 0.5s;
-    padding-right: 30px;
 }
 
 .card .back .details {
