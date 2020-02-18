@@ -4,11 +4,10 @@
 html { height: 100%; }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    background: #f9f9f9 url(../images/bg.png);
+    font-family: Courier;
     font-weight: 300;
     font-size: 15px;
-    color: #333;
+    color: black;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -66,6 +65,7 @@ h1{
 .main > p {
 	text-align: center;
 	padding: 50px 20px;
+ 
 }
 
 
@@ -129,7 +129,7 @@ h1{
 .cbp-mc-form input,
 .cbp-mc-form textarea,
 .cbp-mc-form select {
-	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-family: Courier;
 	line-height: 1.5;
 	font-size: 14px;
 	padding: 5px 10px;
