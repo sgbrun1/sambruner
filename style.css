@@ -61,7 +61,7 @@ SVG {
   margin-left: 300px;
   margin-right: 50px;
   font-family: Courier;
-  font-size: 30pt;
+  font-size: 15pt;
   color: black;
   padding-right: 15px;
 }
@@ -124,4 +124,14 @@ SVG {
 }
 .form {
   margin-left: 300px;
+}
+
+.Resume {
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 50px;
+  font-family: Courier;
+  font-size: 15pt;
+  color: black;
+  padding-right: 15px;
 }
