@@ -51,6 +51,9 @@ SVG {
   opacity: 1;
  transition: all 1s linear;
 }
+g {
+  color:red; 
+}
 
 .name {
   color: black;
