@@ -52,6 +52,9 @@ SVG #S, #G, #B {
   color:red;
   transform: scale(5);
 }
+#cls-4 {
+  transform: scale(100%);
+}
 
 .name {
   color: black;
