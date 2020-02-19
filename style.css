@@ -43,6 +43,7 @@ SVG {
   align-items: center;
   margin-bottom: none;
 }
+
 SVG #Outer {
   opacity: .5;
   transform: scale(.2);
