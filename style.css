@@ -34,6 +34,19 @@ ul {
   position: fixed;
   /* z-index: 10; */
 }
+/* CSS */
+#circleSVG {
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+#circleSVG:hover {
+  fill: red;
+  opacity: .5;
+  transform: scale(5);
+}
+
+
 
 SVG {
   height: 200px;
@@ -48,7 +61,7 @@ SVG #s {
 color:red;
 }
 
-SVG g {
+SVG # {
   color:red;
   transform(20%);
 }
