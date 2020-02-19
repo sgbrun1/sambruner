@@ -46,6 +46,11 @@ SVG {
 #s:hover {
   color: red;
 }
+}
+#outer {
+  opacity: 1;
+ transition: all 1s linear;
+}
 
 .name {
   color: black;
