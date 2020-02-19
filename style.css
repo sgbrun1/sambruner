@@ -46,10 +46,10 @@ SVG {
 #s:hover {
   opacity: .5;
 color:red;
-animation: s-ani 10s linear infinite;
+animation: cls-1 10s linear infinite;
 }
 
-@keyframes s-ani {
+@keyframes cls-1 {
 0%   { opacity: .0; left:0; }
 50%  { opacity: .5; }
 100% { opacity: .0; left: 1000px; }
