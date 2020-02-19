@@ -49,7 +49,12 @@ SVG #Outer {
   transform: scale(.2);
   transition: 2s;
   transform: scale(-.2);
-    transition: 2s;
+  transition: 2s;
+}
+
+SVG #S {
+  opacity: 0;
+  transition: 2s;
 }
 
 
