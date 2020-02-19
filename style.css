@@ -50,7 +50,7 @@ SVG #Outer {
 
 SVG #S, #G, #B {
   color:red;
-  transform: scale(5);
+  transform: scale(.5);
 }
 
 .name {
