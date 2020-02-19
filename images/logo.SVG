@@ -1,45 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 152.15 140.36" style="enable-background:new 0 0 152.15 140.36;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st1{fill:none;}
-	.st2{font-family:'CourierNewPSMT';}
-	.st3{font-size:21.9347px;}
-</style>
-<g id="outer">
-	<ellipse class="st0" cx="79.72" cy="71.21" rx="49.98" ry="50.14"/>
-</g>
-<g id="inner">
-	<circle class="st0" cx="79.52" cy="71.17" r="47.25"/>
-</g>
-<g id="_x5C_">
-	<line class="st0" x1="49.87" y1="41.84" x2="109.57" y2="101.53"/>
-</g>
-<g id="Computer">
-	<g>
-		<rect x="72.52" y="89.29" class="st0" width="11.89" height="9.35"/>
-		<rect x="72.36" y="100.23" class="st0" width="11.89" height="5.07"/>
-		<line class="st0" x1="76.33" y1="98.65" x2="76.33" y2="100.55"/>
-		<line class="st0" x1="80.13" y1="98.8" x2="80.13" y2="100.55"/>
-		<rect x="73.95" y="90.56" class="st0" width="8.88" height="6.5"/>
-		<rect x="73.52" y="101.24" class="st0" width="4.4" height="2.32"/>
-	</g>
-</g>
-<g id="B">
-	<rect x="99.34" y="63.72" class="st1" width="13.16" height="14.75"/>
-	<text transform="matrix(1 0 0 1 99.3407 77.1702)" class="st0 st2 st3">B</text>
-</g>
-<g id="G">
-	<rect x="72.36" y="36.11" class="st1" width="13.16" height="14.75"/>
-	<text transform="matrix(1 0 0 1 72.3632 49.5564)" class="st0 st2 st3">G</text>
-</g>
-<g id="S">
-	<rect x="47.97" y="63.24" class="st1" width="13.16" height="14.75"/>
-	<text transform="matrix(1 0 0 1 47.9706 76.6907)" class="st0 st2 st3">S</text>
-</g>
-<g id="_x2F_">
-	<line class="st0" x1="50.86" y1="99.99" x2="110.56" y2="40.29"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.97 101.28">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 0.75px;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 21.93px;
+        font-family: CourierNewPSMT, Courier New;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>logo</title>
+  <g id="Outer">
+    <ellipse class="cls-1" cx="50.48" cy="50.64" rx="49.98" ry="50.14"/>
+  </g>
+  <g id="Inner">
+    <circle class="cls-1" cx="50.29" cy="50.6" r="47.25"/>
+  </g>
+  <g id="Computer">
+    <g>
+      <rect class="cls-2" x="43.29" y="68.72" width="11.89" height="9.35"/>
+      <rect class="cls-2" x="43.13" y="79.66" width="11.89" height="5.07"/>
+      <line class="cls-2" x1="47.09" y1="78.08" x2="47.09" y2="79.98"/>
+      <line class="cls-2" x1="50.9" y1="78.24" x2="50.9" y2="79.98"/>
+      <rect class="cls-2" x="44.71" y="69.99" width="8.88" height="6.5"/>
+      <rect class="cls-2" x="44.28" y="80.67" width="4.4" height="2.32"/>
+    </g>
+  </g>
+  <g id="B">
+    <text class="cls-3" transform="translate(70.1 56.6)">B</text>
+  </g>
+  <g id="G">
+    <text class="cls-3" transform="translate(43.13 28.99)">G</text>
+  </g>
+  <g id="S">
+    <text class="cls-4" transform="translate(18.73 56.12)">S</text>
+  </g>
+  <g id="X">
+    <line class="cls-1" x1="20.64" y1="21.27" x2="80.33" y2="80.97"/>
+    <line class="cls-1" x1="21.63" y1="79.42" x2="81.32" y2="19.72"/>
+  </g>
 </svg>
