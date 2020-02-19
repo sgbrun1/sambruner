@@ -14,6 +14,9 @@ body {
 #elastic_grid_demo {
   margin-left: 300px;
 }
+#outer {
+  opacity: .1;
+}
 
 a {
 	color: #555;
