@@ -43,14 +43,14 @@ SVG {
   align-items: center;
   margin-bottom: none;
 }
-SVG #s {
+SVG #Outer {
   opacity: .5;
-color:red;
+  transform: scale(5);
 }
 
-SVG #g {
+SVG #S, #G, #B {
   color:red;
-  transform(20%);
+  transform: scale(5);
 }
 
 .name {
