@@ -47,12 +47,13 @@ SVG {
   color: red;
 }
 }
-#outer {
+.outer {
   opacity: 1;
  transition: all 1s linear;
+ color:blue;
 }
 g {
-  color:red; 
+  color:red;
 }
 
 .name {
