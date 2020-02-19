@@ -43,14 +43,14 @@ SVG {
   align-items: center;
   margin-bottom: none;
 }
-svg #s:hover {
+SVG #s {
   opacity: .5;
 color:red;
-animation: cls-1 10s linear infinite;
 }
 
-g {
+SVG g {
   color:red;
+  transform(20%);
 }
 
 .name {
