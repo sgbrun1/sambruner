@@ -15,12 +15,12 @@ ul {
   padding: 10px;
 }
 
-a {
+.navlink {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+.navlink:hover {
   color: yellow;
 }
 
