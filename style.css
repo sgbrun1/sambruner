@@ -45,13 +45,10 @@ SVG {
 }
 SVG #Outer {
   opacity: .5;
-  transform: scale(5);
-}
-
-SVG #S, #G, #B {
-  color:red;
   transform: scale(.5);
 }
+
+
 
 .name {
   color: black;
