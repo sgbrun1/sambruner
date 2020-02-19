@@ -44,13 +44,15 @@ SVG {
   margin-bottom: none;
 }
 #s:hover {
-  color: red;
+  fill: red;
+  opacity: .5;
+  transform: scale(5);
 }
 }
 .outer {
-  opacity: 1;
- transition: all 1s linear;
- color:blue;
+  fill: red;
+  opacity: .5;
+  transform: scale(5);
 }
 g {
   color:red;
