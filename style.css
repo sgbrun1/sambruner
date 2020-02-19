@@ -43,7 +43,7 @@ SVG {
   align-items: center;
   margin-bottom: none;
 }
-#s:hover {
+sgv #s:hover {
   opacity: .5;
 color:red;
 animation: cls-1 10s linear infinite;
