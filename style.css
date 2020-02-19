@@ -44,7 +44,7 @@ SVG {
   margin-bottom: none;
 }
 
-SVG #Outer {
+SVG #Outer:hover {
   transform: scale(2);
   transition: 2s;
 }
