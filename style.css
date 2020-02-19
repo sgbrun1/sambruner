@@ -35,9 +35,6 @@ ul {
   /* z-index: 10; */
 }
 
-
-
-
 SVG {
   height: 200px;
   width: auto;
@@ -51,7 +48,7 @@ SVG #s {
 color:red;
 }
 
-SVG # {
+SVG #g {
   color:red;
   transform(20%);
 }
