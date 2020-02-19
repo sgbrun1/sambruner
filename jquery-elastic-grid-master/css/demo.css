@@ -15,7 +15,8 @@ body {
   margin-left: 300px;
 }
 #outer {
-  opacity: .1;
+  opacity: 1;
+ transition: all 1s linear;
 }
 
 a {
