@@ -45,6 +45,7 @@ SVG {
 }
 SVG #Inner {
   opacity: .5;
+  transition: 2s;
 }
 
 
