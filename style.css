@@ -46,15 +46,20 @@ SVG {
 
 SVG #S:hover {
   transform: scale(2);
+  transition: .5s;
 
 }
 SVG #G:hover {
   transform: scale(2);
+  transition: .5s;
+
 
 }
 SVG #B:hover {
   transform: scale(2);
-  
+  transition: .5s;
+
+
 }
 
 
